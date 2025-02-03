@@ -37,11 +37,11 @@ public class Food {
 	private boolean available;
 	private String category;
 	private double price;
-	
+
 	private String imageName;
 	private String imageType;
 	@Lob
-	@Column(name = "image_data")
+	@Column(name = "image")
 	private byte[] imageDate;
 
 	@ManyToOne
